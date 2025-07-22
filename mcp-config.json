@@ -15,11 +15,11 @@
       "type": "local",
       "command": "npx",
       "args": [
-        "-y", "@azure-devops/mcp@1.1.0", "ArjunAnappara"
+        "-y", "@azure-devops/mcp@1.1.0", "SumithaArjunan"
       ],
       "tools": ["*"],
       "env": {
-        "AZURE_DEVOPS_ACCESS_TOKEN": "COPILOT_MCP_AZURE_DEVOPS_ACCESS_TOKEN"
+        "AZURE_DEVOPS_ACCESS_TOKEN": "eeyLNJoKPRL1GC73b1vFhcRToUrFDVCryqeBovChj2qJI87Q9gj5JQQJ99BGACAAAAA9nnGqAAASAZDO1oxN"
       }
     }
   }
