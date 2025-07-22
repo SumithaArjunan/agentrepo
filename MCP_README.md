@@ -11,7 +11,7 @@ This repository contains an MCP (Model Context Protocol) configuration that enab
 
 ### Azure DevOps (ADO)
 - **Package**: `@azure-devops/mcp@1.1.0`
-- **Organization**: ArjunAnappara
+- **Organization**: SumithaArjunan
 - **Purpose**: Integrates with Azure DevOps services
 - **Environment Variable**: `COPILOT_MCP_AZURE_DEVOPS_ACCESS_TOKEN`
 
@@ -29,7 +29,7 @@ This repository contains an MCP (Model Context Protocol) configuration that enab
 
 This configuration allows the GitHub Copilot agent to:
 - Generate code from OpenAPI specifications using the train-travel-api-openapi-source.yaml
-- Interact with Azure DevOps services for the ArjunAnappara organization
+- Interact with Azure DevOps services for the SumithaArjunan organization
 - Access both services through the MCP protocol for enhanced coding assistance
 
 ## Environment Variables
