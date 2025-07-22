@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "openapi-generator": {
+      "type": "local",
+      "command": "npx",
+      "args": [
+        "@arjun-a-2323/openapi-generator-mcp@1.0.3"
+      ],
+      "tools": ["*"],
+      "env": {
+        "NODE_AUTH_TOKEN": "COPILOT_MCP_NODE_AUTH_TOKEN"
+      }
+    },
+    "ado": {
+      "type": "local",
+      "command": "npx",
+      "args": [
+        "-y", "@azure-devops/mcp@1.1.0", "ArjunAnappara"
+      ],
+      "tools": ["*"],
+      "env": {
+        "AZURE_DEVOPS_ACCESS_TOKEN": "COPILOT_MCP_AZURE_DEVOPS_ACCESS_TOKEN"
+      }
+    }
+  }
+}
