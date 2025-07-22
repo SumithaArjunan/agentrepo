@@ -1,0 +1,27 @@
+{
+  "workItem": {
+    "title": "Add user details",
+    "workItemType": "User Story",
+    "description": "**Objective:** Implement functionality to add user details to the system.\n\n**Acceptance Criteria:**\n- [ ] Create user input form with required fields\n- [ ] Implement validation for user input\n- [ ] Add user details to the database\n- [ ] Display confirmation message upon successful addition\n- [ ] Handle error cases gracefully\n\n**Technical Requirements:**\n- Form should include: Name, Email, Phone Number, Address\n- Email validation should be implemented\n- Phone number should support international formats\n- All fields should have appropriate length limits\n\n**Priority:** Medium\n**Story Points:** 5",
+    "assignedTo": "",
+    "state": "New",
+    "priority": 2,
+    "storyPoints": 5,
+    "tags": ["user-management", "frontend", "backend"],
+    "azureDevOpsProject": "ArjunAnappara",
+    "createdDate": "2024-01-01T00:00:00Z",
+    "areaPath": "ArjunAnappara",
+    "iterationPath": "ArjunAnappara"
+  },
+  "instructions": {
+    "mcpPackage": "@azure-devops/mcp@1.1.0",
+    "organization": "ArjunAnappara",
+    "environmentVariable": "AZURE_DEVOPS_ACCESS_TOKEN",
+    "steps": [
+      "Set AZURE_DEVOPS_ACCESS_TOKEN environment variable",
+      "Use MCP configuration from mcp-config.json",
+      "Create work item using the Azure DevOps MCP tools",
+      "Apply the work item configuration from this file"
+    ]
+  }
+}
